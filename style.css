@@ -209,6 +209,9 @@ input:focus:invalid ~ .error-container {
 }
 
 @media (max-width: 425px) {
+  body {
+    background-image: url(images/bg-intro-mobile.png);
+  }
   .content {
     width: 100%;
     flex-direction: column;
